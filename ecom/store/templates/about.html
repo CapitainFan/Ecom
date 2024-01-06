@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<!-- Header-->
+<header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">About Us...</h1>
+            <p class="lead fw-normal text-white-50 mb-0">Welcome To Our Ecommerce...</p>
+        </div>
+    </div>
+</header>
+
+
+<div class="container">
+    <div class="row">
+        <center>
+        	<div class="col-8">
+        		<br/><br/>
+
+                <img src="{% static 'images/about.jpeg' %}" height=400>
+
+                <br/><br/>
+
+                <p align="justify">
+                    Что вершит судьбу человечества в этом мире? Некое незримое существо или закон, подобно Длани Господней парящей над миром? По крайне мере истинно то, что человек не властен даже над своей волей. 
+                </p>
+
+                <br/><br/>
+
+            </div>
+        </center>
+    </div>
+</div>
+
+{% endblock %}
