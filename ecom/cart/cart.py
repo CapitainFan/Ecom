@@ -1,5 +1,6 @@
 from store.models import Product, Profile
 
+
 class Cart():
 	def __init__(self, request):
 		self.session = request.session
