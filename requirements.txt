@@ -3,6 +3,7 @@ Django==3.2.18
 gunicorn==22.0.0
 pillow==10.2.0
 psycopg==3.2.1
+psycopg2-binary==2.9.5
 python-dotenv==0.20.0
 sqlparse==0.4.3 
 typing_extensions==4.5.0
